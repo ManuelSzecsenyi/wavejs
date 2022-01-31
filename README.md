@@ -35,4 +35,4 @@ var w1 = new Wave(document.querySelector("#wave"), 10, 0.03, 0.05);
 - Use `this.cur = this.random(0, Math.PI)` for random wave.
 
 ## Screenshot ##
-![Screenshot](img/wave_desktop.JPG)
+![Screenshot](img/wave.gif)
