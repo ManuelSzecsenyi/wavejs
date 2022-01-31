@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans&display=swap');
+
+html, body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.box {
+    background-color: #1a1a1a;
+    flex: 1;
+}
+
+#upper {
+    background-color: #2c2c2c;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 100px;
+    font-family: "Google Sans";
+    font-weight: 600;
+    mix-blend-mode: difference;
+    color: #9381d8;
+    animation: popup 1.5s;
+}
+
+@keyframes popup {
+    
+    0% {
+        top: 100%;
+        opacity: 0%;
+    }
+
+    80% {
+        top: calc(50% - 10px);
+        opacity: 75%;
+    }
+
+    100% {
+        top: 50%;
+        opacity: 100%;
+    }
+}
+
+.wave {
+    width: 100%;
+    fill: #1a1a1a;
+    background-color: #2c2c2c;
+}
