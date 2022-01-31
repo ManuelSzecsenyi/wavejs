@@ -20,7 +20,7 @@ Create an `svg` tag
 ### Javascript ###
 Inside `index.js`
 Create a wave with the following parameters  
-- HTML SVG element
+- HTML `svg` element
 - Number of ***anchor*** points
 - Minimum speed of a point
 - Maximum speed of a point
