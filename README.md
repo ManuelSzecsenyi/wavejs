@@ -34,5 +34,6 @@ var w1 = new Wave(document.querySelector("#wave"), 10, 0.03, 0.05);
 - Use `this.cur = n * 180 * Math.PI / 180` for standing sine wave.
 - Use `this.cur = this.random(0, Math.PI)` for random wave.
 
-## Screenshot ##
+## Demo ##
+Visit https://vedantyadu.github.io/wavejs/ for a higher quality demo.
 ![Screenshot](img/wave.gif)
