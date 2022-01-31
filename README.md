@@ -1,9 +1,9 @@
 # wavejs
-A javascript library that allows you to create random SVG waves.  
+A javascript library that allows you to create random animated SVG waves.  
 Demo🌊 https://vedantyadu.github.io/wavejs/
 
 ## Setup ##
-### Html ###
+### HTML ###
 Include `wave.js`  
 ```html
 <script src="./src/wave.js"></script>
@@ -33,3 +33,6 @@ var w1 = new Wave(document.querySelector("#wave"), 10, 0.03, 0.05);
 - Use `this.cur = (n / total) * 180 * Math.PI / 180` for sine wave. 
 - Use `this.cur = n * 180 * Math.PI / 180` for standing sine wave.
 - Use `this.cur = this.random(0, Math.PI)` for random wave.
+
+## Screenshot ##
+![Screenshot](img/wave_desktop.JPG)
