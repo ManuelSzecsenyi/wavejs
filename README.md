@@ -3,7 +3,7 @@ A javascript library that allows you to create random SVG waves.
 Demo🌊 https://vedantyadu.github.io/wavejs/
 
 ## Setup ##
-### HTML ###
+### Html ###
 Include `wave.js`  
 ```html
 <script src="./src/wave.js"></script>
@@ -12,7 +12,7 @@ Include `index.js`
 ```html
 <script src="index.js"></script>
 ```
-Create an SVG tag
+Create an `svg` tag
 ```html
 <svg class="wave" id="wave" preserveAspectRatio="none" viewbox="0 0 1200 50"></svg>
 ```
