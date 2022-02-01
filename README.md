@@ -1,5 +1,6 @@
 # wavejs
 A javascript library that allows you to create random animated SVG waves.  
+  
 Demo🌊 https://vedantyadu.github.io/wavejs/
 
 ## Setup ##
