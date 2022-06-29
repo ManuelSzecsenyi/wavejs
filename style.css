@@ -67,10 +67,11 @@ html, body {
     bottom: 20px;
     left: 20px;
     font-size: 25px;
-    color: white;
     background-color: #1a1a1a;
     border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    mix-blend-mode: difference;
+    color: #9381d8;
 }
