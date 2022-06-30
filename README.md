@@ -1,7 +1,7 @@
 # wavejs
 A javascript module that allows you to create random animated SVG waves.  
   
-Demo🌊 https://vedantyadu.github.io/wavejs/
+Demo🌊 https://vedantyadu.github.io/wavejs
 
 ## Setup ##
 ### HTML ###
@@ -36,5 +36,5 @@ var w1 = new Wave(document.querySelector("#wave"), 10, 0.03, 0.05);
 - Use `this.cur = this.random(0, Math.PI)` for random wave.
 
 ## Demo ##
-#### Visit 👉 https://vedantyadu.github.io/wavejs/ for a higher quality demo. ####  
+#### Visit 👉 https://vedantyadu.github.io/wavejs for a higher quality demo. ####  
 ![Screenshot](img/wave.gif)
