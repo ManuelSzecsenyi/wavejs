@@ -1,7 +1,7 @@
 
 class Wave {
     
-    constructor (svg, anchors, minSpeed, maxSpeed) {
+    constructor (svg, anchors, minSpeed, maxSpeed, color) {
 
         this.anchors = anchors - 1;
 
@@ -17,6 +17,10 @@ class Wave {
 
         for (var i = 0; i <= this.anchors; i++) {
             this.points.push(new Point(Math.floor(this.width * i / this.anchors), this.height, minSpeed, maxSpeed, i, this.anchors));
+        }
+
+        if(color) {
+            this.path.setAttribute('style', `fill: ${color}`);
         }
 
         this.animate();
